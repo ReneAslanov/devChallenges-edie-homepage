@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./index.js" defer></script>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <nav class="nav-wrapper">
+                <h1 class="nav-logo">Edie</h1>
+                <div class="nav-links-wrapper">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#ourWorks">Our Works</a>
+                    <a class="nav-link" href="#clients">Clients</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+
+                <div class="nav-burger-wrapper" id="nav-burger">
+                    <div class="nav-burger-bar"></div>
+                    <div class="nav-burger-bar"></div>
+                    <div class="nav-burger-bar"></div>
+                </div>
+
+                <div class="nav-items-burger-opened" id="burger-opened">
+                    <div class="nav-items-burger-cross-container">
+                      <div class="nav-items-burger-opened-cross-wrapper" id="cross">
+                        <div class="nav-burger-bar nav-burger-bar-opened nav-items-burger-opened-cross-one"></div>
+                        <div class="nav-burger-bar nav-burger-bar-opened nav-items-burger-opened-cross-two"></div>
+                      </div>
+                    </div>
+
+                    <div class="nav-items-burger-opened-wrapper" id="li-wrapper-burger">
+                        <a class="nav-link nav-link-burger" href="#home">Home</a>
+                        <a class="nav-link nav-link-burger" href="#services">Services</a>
+                        <a class="nav-link nav-link-burger" href="#ourWorks">Our Works</a>
+                        <a class="nav-link nav-link-burger" href="#clients">Clients</a>
+                        <a class="nav-link nav-link-burger" href="#contact">Contact</a>
+                    </div>
+                  </div>
+
+            </nav>
+
+            <main class="main-content-wrapper">
+                <section class="main-hero-wrapper" id="home">
+                    <div class="hero-pre-photo-content">
+                        <h3 class="sub-sub-headline">
+                            Unhappy with your website?
+                        </h3>
+                        <h1 class="headline">
+                            We create beautiful and fast web services
+                        </h1>
+                    </div>
+
+                    <div class="hero-photo-wrapper">
+                        <img
+                            class="main-hero-photo"
+                            src="./photos/heroImage.jpg"
+                            alt=""
+                        />
+                    </div>
+
+                    <div class="hero-post-photo-content">
+                        <h1 class="headline post-hero-photo-headline">
+                            Story, emotion and purpose
+                        </h1>
+                        <p class="hero-paragraph">
+                            We help transform your ideas into real world
+                            applications that will outperform your toughest
+                            competition and help you achieve your strategic
+                            goals in short period of time.
+                        </p>
+
+                        <div class="hero-footer-wrapper">
+                            <label class="hero-cta-label" for="email"
+                                >Want us to contact you?</label
+                            >
+                            <div class="hero-cta-wrapper">
+                                <input
+                                    class="hero-input"
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="Email"
+                                />
+                                <button class="hero-input-button">Join</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="main-services-wrapper" id="services">
+                    <h2 class="sub-heading main-services-heading">
+                        We offer high demand services
+                    </h2>
+                    <div class="services-cards-wrapper">
+                        <div class="services-card">
+                            <div
+                                class="services-card-photo-wrapper services-card-photo-wrapper-blue"
+                            >
+                                <img
+                                    class="services-card-photo"
+                                    src="./photos/pen.svg"
+                                    alt=""
+                                />
+                            </div>
+
+                            <h3 class="services-card-headline">UI/UX Design</h3>
+
+                            <p class="services-card-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis a metus ac nulla consequat
+                                aliquet id quis turpis.
+                            </p>
+
+                            <button class="services-card-button">
+                                Get started
+                            </button>
+                        </div>
+
+                        <div class="services-card">
+                            <div
+                                class="services-card-photo-wrapper services-card-photo-wrapper-green"
+                            >
+                                <img
+                                    class="services-card-photo"
+                                    src="./photos/code.svg"
+                                    alt=""
+                                />
+                            </div>
+
+                            <h3 class="services-card-headline">UI/UX Design</h3>
+
+                            <p class="services-card-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis a metus ac nulla consequat
+                                aliquet id quis turpis.
+                            </p>
+
+                            <button class="services-card-button">
+                                Get started
+                            </button>
+                        </div>
+
+                        <div class="services-card">
+                            <div
+                                class="services-card-photo-wrapper services-card-photo-wrapper-red"
+                            >
+                                <div class="services-card-backend-icon-wrapper">
+                                    <div
+                                        class="services-card-backend-bar"
+                                    ></div>
+                                    <div
+                                        class="services-card-backend-bar"
+                                    ></div>
+                                    <div
+                                        class="services-card-backend-bar"
+                                    ></div>
+                                </div>
+                            </div>
+
+                            <h3 class="services-card-headline">UI/UX Design</h3>
+
+                            <p class="services-card-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis a metus ac nulla consequat
+                                aliquet id quis turpis.
+                            </p>
+
+                            <button class="services-card-button">
+                                Get started
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="main-designs-wrapper" id="ourWorks">
+                  <div class="designs-headline-wrapper">
+                      <h2 class="sub-heading designs-headline">Good design means good business</h2>
+                  </div>
+
+                  <div class="designs-cards-wrapper">
+                      <article class="designs-card">
+                          <div class="designs-card-photo-wrapper">
+                              <img class="designs-card-photo" src="./photos/smarthome.jpg" alt="smarthome">
+                          </div>
+                          <h4 class="designs-card-sub-heading">Full stack application</h4>
+                          <h2 class="designs-card-headline">Smart home dashboard</h2>
+                      </article>
+
+                      <article class="designs-card">
+                        <div class="designs-card-photo-wrapper">
+                            <img class="designs-card-photo" src="./photos/juice-product.png" alt="smarthome">
+                        </div>
+                        <h4 class="designs-card-sub-heading">UX/UI design</h4>
+                        <h2 class="designs-card-headline">Onboard application</h2>
+                      </article>
+
+                      <article class="designs-card">
+                        <div class="designs-card-photo-wrapper">
+                            <img class="designs-card-photo" src="./photos/booking.png" alt="smarthome">
+                        </div>
+                        <h4 class="designs-card-sub-heading">Mobile application</h4>
+                        <h2 class="designs-card-headline">Booking system</h2>
+                      </article>
+
+                      <article class="designs-card">
+                        <div class="designs-card-photo-wrapper">
+                            <img class="designs-card-photo" src="./photos/juice-product.png" alt="smarthome">
+                        </div>
+                        <h4 class="designs-card-sub-heading">Front End application</h4>
+                        <h2 class="designs-card-headline">Juice product homepage</h2>
+                      </article>
+                  </div>
+
+                  <div class="designs-cta-wrapper">
+                    <div class="designs-cta-link-wrapper">
+                      <h3 class="sub-sub-heading designs-cta-link"><a href="#" class="designs-cta-link">see more</a></h3>
+                      <img class="designs-cta-arrow" src="./photos/right-arrow.svg" alt="arrow">
+                    </div>
+                  </div>
+                </section>
+
+
+                <section class="main-team-wrapper">
+                    <div class="team-sidebar-left">
+                        <h4 class="team-sidebar-left-sub-sub-headline">
+                            Meet the team
+                        </h4>
+
+                        <h2 class="sub-heading team-sidebar-left-sub-heading">
+                            We are chilled and a laidback team
+                        </h2>
+
+                        <p class="team-sidebar-left-description">
+                            Lorem ipsum dolor sit amet,
+                             consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="team-sidebar-right">
+                        <div class="team-sidebar-right-left-photo-wrapper">
+                            <img class="team-sidebar-right-photo team-photo-big" src="./photos/person3.png" alt="person">
+                        </div>
+
+                        <div class="team-sidebar-right-right-photo-wrapper">
+                            <img class="team-sidebar-right-photo team-photo-small" src="./photos/person1.png" alt="person">
+                            <img class="team-sidebar-right-photo team-photo-medium" src="./photos/person2.png" alt="person">
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="main-clients-wrapper" id="clients">
+                    <h2 class="sub-heading clients-heading">
+                        “Fast and outstanding resutls.
+                         Edie understands their customer’s needs.
+                          They have a young and talented team.”
+                    </h2>
+
+                    <div class="clients-client-card-wrapper">
+                        <img class="clients-client-card-photo" src="./photos/person4.png" alt="person">
+                        <div class="clients-client-card-info-wrapper">
+                            <h3 class="sub-sub-heading">
+                                Carlos Tran
+                            </h3>
+
+                            <h4 class="clients-client-card-sub-heading">
+                                The Decorate Gatsby
+                            </h4>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="main-footer">
+                    <div class="footer-content-wrapper">
+
+                        <div class="footer-nav">
+                            <a class="nav-link footer-link" href="#home">Home</a>
+                            <a class="nav-link footer-link" href="#services">Services</a>
+                            <a class="nav-link footer-link" href="#ourWorks">Our Works</a>
+                            <a class="nav-link footer-link" href="#clients">Clients</a>
+                            <a class="nav-link footer-link" href="#contact">Contact</a>
+                        </div>
+
+                        <div class="footer-socials">
+                            <h1 class="footer-logo">Edie</h1>
+                            <div class="footer-socials-icon-wrapper">
+                                <img class="footer-socials-icon" src="./photos/instagram.svg" alt="insta">
+                                <img class="footer-socials-icon" src="./photos/linkedin.svg" alt="linked-in">
+                                <img class="footer-socials-icon twitter-icon" src="./photos/twitter.svg" alt="twitter">
+                            </div>
+                        </div>
+
+                        <div class="footer-contact-wrapper" id="contact">
+                            <label class="footer-label" for="footer-email">
+                                Want us to contact you?
+                            </label>
+
+                            <div class="footer-contact-card-wrapper">
+                                <input
+                                        class="hero-input footer-input"
+                                        type="email"
+                                        name="email"
+                                        id="footer-email"
+                                        placeholder="Email"
+                                />
+                                <button class="hero-input-button">Join</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </footer>
+            </main>
+        </div>
+    </body>
+</html>
